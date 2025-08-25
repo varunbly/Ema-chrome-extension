@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name" : "Ema",
+    "version" : "1.0",
+    "description": "A simple chrome extension",
+    "permissions": ["identity"],
+    "oauth2": {
+        "client_id": "616715840311-k0d6n5ng00psj5543isf8rt3cskrcfqq.apps.googleusercontent.com",
+        "scopes": ["https://www.googleapis.com/auth/gmail.readonly"]
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
