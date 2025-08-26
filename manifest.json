@@ -3,7 +3,10 @@
     "name" : "Ema",
     "version" : "1.0",
     "description": "A simple chrome extension",
-    "permissions": ["identity"],
+    "permissions": [
+        "identity",
+        "alarms"
+    ],
     "oauth2": {
         "client_id": "616715840311-k0d6n5ng00psj5543isf8rt3cskrcfqq.apps.googleusercontent.com",
         "scopes": ["https://www.googleapis.com/auth/gmail.readonly"]
